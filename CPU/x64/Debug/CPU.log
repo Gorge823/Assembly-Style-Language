@@ -1,0 +1,4 @@
+﻿  mov.cpp
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\mov.cpp(20,6): warning C4101: 'reg2': unreferenced local variable
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\mov.cpp(26,38): warning C4101: 'e': unreferenced local variable
+  CPU.vcxproj -> C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\x64\Debug\CPU.exe

@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/gorge/desktop/code/cpp/cpu-emulator/cpu/comp.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "97dd20cefb191d0db5fca07a476839e65ee54df2d05c3c2e4fcacc851308cec2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gorge/desktop/code/cpp/cpu-emulator/cpu/instructions.h"
+          },
+          "hashes": {
+            "sha-256": "74214cd89856738a7c2d67d5a964b41b514a4640fc7b6b0ea0e4c13f22d0cbf7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gorge/desktop/code/cpp/cpu-emulator/cpu/register.h"
+          },
+          "hashes": {
+            "sha-256": "d634cdf1a824070a75fdc96932a34a3da955129976c85ab93e15ca5e51dfeb60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gorge/desktop/code/cpp/cpu-emulator/cpu/stack.h"
+          },
+          "hashes": {
+            "sha-256": "67c27b7cc56ab0ea82e53bde75154a68b8158352836d9a18170db668192c546d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gorge/desktop/code/cpp/cpu-emulator/cpu/parser.h"
+          },
+          "hashes": {
+            "sha-256": "316f7a7acb999505fdcc7776eaa1bcafc3eeffb275ed18420ab9f5334192741b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gorge/desktop/code/cpp/cpu-emulator/cpu/run.h"
+          },
+          "hashes": {
+            "sha-256": "b0701ee4cec898ca2d65731172fe3db030e3f6a3e7f679365b7f1af4195e863d"
+          }
+        }
+      ]
+    }
+  ]
+}

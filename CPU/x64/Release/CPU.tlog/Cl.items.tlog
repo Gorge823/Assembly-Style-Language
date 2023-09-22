@@ -1,0 +1,16 @@
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\add.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\add.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\call.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\call.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\ret.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\ret.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\sub.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\sub.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\syscall.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\syscall.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\comp.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\comp.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\fileParser.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\fileParser.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\globals.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\globals.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\inc.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\inc.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\jmp.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\jmp.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\main.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\main.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\mov.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\mov.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\parser.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\parser.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\pop.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\pop.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\push.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\push.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\run.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\run.obj

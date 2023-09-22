@@ -1,0 +1,16 @@
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\add.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\add.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\call.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\call.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\ret.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\ret.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\sub.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\sub.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\syscall.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\syscall.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\comp.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\comp.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\fileParser.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\fileParser.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\globals.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\globals.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\inc.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\inc.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\jmp.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\jmp.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\main.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\main.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\mov.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\mov.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\parser.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\parser.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\pop.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\pop.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\push.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\push.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\run.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Debug\run.obj

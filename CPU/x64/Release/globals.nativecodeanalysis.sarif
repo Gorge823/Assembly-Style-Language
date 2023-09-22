@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/gorge/desktop/code/cpp/cpu-emulator/cpu/globals.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "1879dce30c2181876ec5afa278dffbe5dc7b96766aaa3567513660275910b5a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gorge/desktop/code/cpp/cpu-emulator/cpu/register.h"
+          },
+          "hashes": {
+            "sha-256": "d634cdf1a824070a75fdc96932a34a3da955129976c85ab93e15ca5e51dfeb60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gorge/desktop/code/cpp/cpu-emulator/cpu/stack.h"
+          },
+          "hashes": {
+            "sha-256": "67c27b7cc56ab0ea82e53bde75154a68b8158352836d9a18170db668192c546d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gorge/desktop/code/cpp/cpu-emulator/cpu/fileparser.h"
+          },
+          "hashes": {
+            "sha-256": "115aae5806aa8d70a80fd41f50e4ba159de359fab8694d4b7c080c25489d8d06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/gorge/desktop/code/cpp/cpu-emulator/cpu/parser.h"
+          },
+          "hashes": {
+            "sha-256": "316f7a7acb999505fdcc7776eaa1bcafc3eeffb275ed18420ab9f5334192741b"
+          }
+        }
+      ]
+    }
+  ]
+}
