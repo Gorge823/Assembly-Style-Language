@@ -1,0 +1,86 @@
+=-=-=
+Syscall Table:
+
+	Name		|	Code %IAX%	|	Args
+	============================================================
+	Return		|	0			|	%IBX% Return value;
+	Restart		|	1			|	NULL; Restarts program
+	Write		|	2			|	%SAX% String to Write; writes a string
+	Read		|	3			|	NULL; Outputs to %SAX%
+	Sleep		|	4			|	%IBX% time to sleep;
+	Pause		|	5			|	NULL; Pause till input
+
+=-=-=
+
+=-=-=
+Registers:
+
+	Name	| Type	
+	====================
+	IAX		| Integer	
+	IBX		| Integer
+	ICX		| Integer
+	IDX		| Integer
+	IEX		| Integer
+			|
+	SAX		| String
+	SBX		| String
+	SCX		| String
+	SDX		| String
+
+=-=-=
+
+Instructions:
+
+	add %Integer Register%, %Integer Register || Integer%
+		Adds operand 2 to operand 1
+
+	call %Label Name%
+		Moves execution pointer to label name, use ret to restore pointer
+
+	comp %Integer Register || Integer%, %Integer Register || Integer%
+		Checks if operand 1 is greater than operand 2, executes next line if so
+
+	inc %Integer Register%
+		increments operand 1 by 1
+
+	jmp %Label Name%
+		Move execution pointer to label name, no return
+
+	je %Label Name%
+		Move execution pointer if comp is equal
+
+	jg %Label Name%
+		Move execution pointer if comp is greater
+
+	jl %Label Name%
+		Move execution pointer if comp is lesser
+		
+	mov  %Integer Register% || %String Register%, %Integer Register% || %String Register% || %Integer% || %String%
+		Moves operand to into operand 1, can cast int to string and string to int if correct
+
+	pop %Integer Register% || %String Register%
+		Removes top of stack and puts into operand 1; string and integer use seperate stacks
+
+	push %Integer Register% || %String Register%
+		Adds value of operand 1 onto top of the stack; string and integer use seperate stacks
+
+	ret %NULL%
+		Returns execution after a call
+
+	sub %Integer Register%, %Integer Register || Integer%
+		Subtracts operand 2 from operand 1
+
+	syscall %NULL%
+		Makes system call; refer to syscall chart above
+
+=-=-=
+
+=-=-=
+Info:
+
+	Labels are defined by putting a colon at the end of the line
+
+	All programs start at the "start:" label if not present will start from line 0
+
+=-=-=

@@ -2,8 +2,8 @@
 #include <fstream>
 #include <string>
 
-bool fileParser::parseFile(std::string inputFile) {
-	std::ifstream file(inputFile);
+bool parse(std::string filePath) {
+	std::ifstream file(filePath);
 
 	if (!file.is_open()) {
 		return false;
@@ -12,9 +12,9 @@ bool fileParser::parseFile(std::string inputFile) {
 	std::string line;
 	while (std::getline(file, line)) {
 		if (!line.empty() && line.find_first_not_of(" \t") != std::string::npos ) {
-			if (line[0] == ':') {
-				
-				line.erase(0, 1);
+			if (line[line.length() - 1] == ':') {
+
+				line.erase(line.length() - 1, 1);
 
 				jmpLabels[line] = code.size();
 
@@ -24,6 +24,33 @@ bool fileParser::parseFile(std::string inputFile) {
 				code.push_back(line);
 			}
 		}
+	}
+
+	return true;
+}
+
+
+bool fileParser::parseFile() {
+
+	std::ifstream buildFile(".\\build.dat");
+
+	if (!buildFile) {
+		std::cerr << "Failed to open file\n";
+		return false;
+	}
+
+	std::vector<std::string> files;
+	{
+		std::string newFile;
+		while (std::getline(buildFile, newFile)) {
+			if (newFile[0] != ';') {
+			}
+			files.push_back(newFile);
+		}
+	}
+	
+	for (std::string fileName : files) {
+		parse(fileName);
 	}
 
 	return true;

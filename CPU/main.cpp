@@ -2,6 +2,7 @@
 #include <Windows.h>
 
 int main() {
+    /*
     OPENFILENAMEW ofn;
     WCHAR szFile[260];
 
@@ -20,6 +21,10 @@ int main() {
         runner r;
         r.runASM(szFileA);
     }
+    */
+
+    runner r;
+    r.runASM("NULL");
 	
 	return 0;
 }

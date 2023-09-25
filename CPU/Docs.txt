@@ -4,9 +4,11 @@ Syscall Table:
 	Name		|	Code %IAX%	|	Args
 	============================================================
 	Return		|	0			|	%IBX% Return value;
-	Restart		|	1			|	NULL;
-	Write		|	2			|	%SAX% String to Write;
-	Read		|	3			|	NULL;
+	Restart		|	1			|	NULL; Restarts program
+	Write		|	2			|	%SAX% String to Write; writes a string
+	Read		|	3			|	NULL; Outputs to %SAX%
+	Sleep		|	4			|	%IBX% time to sleep;
+	Pause		|	5			|	NULL; Pause till input
 
 =-=-=
 
@@ -45,8 +47,17 @@ Instructions:
 	jmp %Label Name%
 		Move execution pointer to label name, no return
 
+	je %Label Name%
+		Move execution pointer if comp is equal
+
+	jg %Label Name%
+		Move execution pointer if comp is greater
+
+	jl %Label Name%
+		Move execution pointer if comp is lesser
+		
 	mov  %Integer Register% || %String Register%, %Integer Register% || %String Register% || %Integer% || %String%
-		Moves operand to into operand 1
+		Moves operand to into operand 1, can cast int to string and string to int if correct
 
 	pop %Integer Register% || %String Register%
 		Removes top of stack and puts into operand 1; string and integer use seperate stacks
@@ -68,8 +79,8 @@ Instructions:
 =-=-=
 Info:
 
-	Labels are defined by putting a colon at the start of the line
+	Labels are defined by putting a colon at the end of the line
 
-	All programs start at the ":start label" if not present will start from line 0
+	All programs start at the "start:" label if not present will start from line 0
 
 =-=-=

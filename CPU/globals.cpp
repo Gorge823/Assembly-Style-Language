@@ -2,16 +2,19 @@
 #include "stack.h"
 #include "fileParser.h"
 #include "parser.h"
+#include "run.h"
 
 std::stack<int> regStack;
 std::stack<std::string> regStackString;
 std::vector<std::string> code;
 int codePtr;
 
+compType currentComp = NONE;
+
 bool returnMode = false;
 int returnLine = 0;
 
-std::unordered_map<std::string, int> regMap = {
+std::unordered_map<std::string, long int> regMap = {
 	{"iax", 0},
 	{"ibx", 0},
 	{"icx", 0},

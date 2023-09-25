@@ -1,5 +1,8 @@
 C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\add.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\add.obj
 C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\call.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\call.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\je.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\je.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\jg.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\jg.obj
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\jl.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\jl.obj
 C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\ret.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\ret.obj
 C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\sub.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\sub.obj
 C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\syscall.cpp;C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\x64\Release\syscall.obj

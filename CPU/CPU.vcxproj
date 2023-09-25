@@ -130,6 +130,9 @@
   <ItemGroup>
     <ClCompile Include="add.cpp" />
     <ClCompile Include="call.cpp" />
+    <ClCompile Include="je.cpp" />
+    <ClCompile Include="jg.cpp" />
+    <ClCompile Include="jl.cpp" />
     <ClCompile Include="ret.cpp" />
     <ClCompile Include="sub.cpp" />
     <ClCompile Include="syscall.cpp" />

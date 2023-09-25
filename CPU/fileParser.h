@@ -9,5 +9,5 @@ extern std::unordered_map<std::string, int> jmpLabels;
 
 class fileParser {
 public:
-	bool parseFile(std::string inputFile);
+	bool parseFile();
 };

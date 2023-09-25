@@ -33,6 +33,15 @@ public:
 	// Moves current execution line to label specified
 	void jmp();
 
+	// Jumps if equal
+	void je();
+
+	// Jumps if less than
+	void jl();
+
+	// Jumps if greater than
+	void jg();
+
 	// Moves current execution line to label specified
 	void call();
 

@@ -86,6 +86,12 @@ void movString() {
 				break;
 			}
 		}
+
+		if (instructionQueue.front()[i] == '\\' && instructionQueue.front()[i+1] == 'n') {
+			stringInput.push_back('\n');
+			i++;
+			continue;
+		}
 		
 		stringInput.push_back(instructionQueue.front()[i]);
 	}

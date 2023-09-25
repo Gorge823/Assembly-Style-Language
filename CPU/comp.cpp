@@ -46,8 +46,19 @@ void instructions::comp() {
 		}
 	}
 
+	if (reg1 == reg2) {
+		currentComp = EQUAL;
+		return;
+	}
+
 	if (reg1 < reg2) {
-		codePtr++;
+		currentComp = LESS;
+		return;
+	}
+
+	if (reg1 > reg2) {
+		currentComp = GREATER;
+		return;
 	}
 
 	return;

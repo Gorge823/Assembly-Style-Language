@@ -2,7 +2,7 @@
 #include <unordered_map>
 #include <iostream>
 
-extern std::unordered_map<std::string, int> regMap;
+extern std::unordered_map<std::string, long int> regMap;
 extern std::unordered_map<std::string, std::string> stringRegMap;
 
 class registers {

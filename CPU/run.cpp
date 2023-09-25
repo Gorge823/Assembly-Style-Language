@@ -11,17 +11,13 @@ void runner::runASM(std::string input) {
 	parser p;
 	fileParser fp;
 
-	fp.parseFile(input);
+	fp.parseFile();
 
 	for (const auto& label : jmpLabels) {
 		if (label.first == "start") {
 			codePtr = label.second;
 			break;
 		}
-	}
-
-	if (codePtr < -1) {
-		return;
 	}
 
 	while (codePtr < code.size()) {
@@ -54,6 +50,7 @@ bool runner::findInstruction() {
 		return true;
 	}
 
+	/*
 	if (instructionQueue.front() == "dump") {
 		std::cout << "\n=-=-=-=-=-=\nRegister dump:\n";
 		for (const auto& pair : regMap) {
@@ -66,6 +63,7 @@ bool runner::findInstruction() {
 		std::cout << "=-=-=-=-=-=\n";
 		return true;
 	}
+	*/
 
 	if (instructionQueue.front() == "syscall") {
 		instructionQueue.pop();
@@ -94,6 +92,24 @@ bool runner::findInstruction() {
 	if (instructionQueue.front() == "jmp") {
 		instructionQueue.pop();
 		instruct.jmp();
+		return true;
+	}
+
+	if (instructionQueue.front() == "je") {
+		instructionQueue.pop();
+		instruct.je();
+		return true;
+	}
+
+	if (instructionQueue.front() == "jl") {
+		instructionQueue.pop();
+		instruct.jl();
+		return true;
+	}
+
+	if (instructionQueue.front() == "jg") {
+		instructionQueue.pop();
+		instruct.jg();
 		return true;
 	}
 

@@ -8,6 +8,7 @@
 #include "run.h"
 #include "stdlib.h"
 #include "fileParser.h"
+#include <Windows.h>
 
 //
 // ax = instruction code
@@ -36,6 +37,10 @@ void instructions::syscall() {
 	case 3: // Read
 		std::getline(std::cin, stringRegMap["sax"]);
 		break;
+	case 4: // Pause
+		Sleep(regMap["ibx"]);
+	case 5: // Break till input
+		getchar();
 	default:
 		break;
 	}

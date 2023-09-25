@@ -1,8 +1,20 @@
-﻿  mov.cpp
+﻿  call.cpp
+  comp.cpp
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\comp.cpp(25,38): warning C4101: 'e': unreferenced local variable
+C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\CPU\comp.cpp(39,38): warning C4101: 'e': unreferenced local variable
+  globals.cpp
+  inc.cpp
+  je.cpp
+  jg.cpp
+  jl.cpp
+  jmp.cpp
+  main.cpp
+  ret.cpp
   run.cpp
+  syscall.cpp
   Generating code
-  4 of 825 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+  0 of 947 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   CPU.vcxproj -> C:\Users\gorge\Desktop\Code\CPP\CPU-Emulator\x64\Release\CPU.exe
