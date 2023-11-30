@@ -1,4 +1,4 @@
-# CPU-Emulator
+# Assembly Style Language
 
 A basic x86 style interpreted language that I wrote for fun
 
